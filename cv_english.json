@@ -4,6 +4,7 @@
     "label": "Electrical Engineer and Full-Stack developer",
     "image": "/me.webp",
     "email": "salvaft@gmail.com",
+    "phone": "",
     "url": "https://salvaft.dev",
     "summary": "+5 years of experience as a full-stack developer. Currently I am working with embedded systems for power converters. Developping Python code that runs in docker containers in an ARMv7.",
     "location": {
@@ -204,17 +205,22 @@
     {
       "isActive": true,
       "name": "Multiplayer rock paper scissors in RT",
+      "github": "https://github.com/salvaft/qui-va-sortir-nala.git",
+      "url": "https://nala.torocro.duckdns.org/",
       "highlights": ["Real time", "Self hosted"],
       "description": "Implemented in three ways:\nUsing HTTP streaming ('sse' branch).\nUsing websockets with Node.js backend ('main' branch).\nUsing Pocketbase (golang) backend and its realtime client api ('main'). Self hosted."
     },
     {
       "name": "Link shortener",
+      "github": "https://github.com/salvaft/link-shortener.git",
       "isActive": false,
       "highlights": ["Golang", "Caching", "Rate limiting"],
       "description": "Developped in golang. Progressive enhanced web app. Works without JS. Implements rate limiting. Caching is achieved using localStorage in the client."
     },
     {
       "name": "CV and Cover Letter generation tool",
+      "github": "https://github.com/salvaft/astro-sft/tree/main/demos/cv",
+      "url": "https://cv-mock.pages.dev/cv/company-one/meneillos/",
       "isActive": true,
       "highlights": ["Astro"],
       "description": "Data is stored in _yaml_ and _description_ files: Education, work, skills, social lie in content files. Currently there are two templates available for the CV. Inspired by <a href='https://github.com/javfg/cvgen' target='_blank'>cvgen</a>"
@@ -222,12 +228,16 @@
     {
       "isActive": true,
       "name": "Multiplayer tic-tac-toe in real time",
+      "github": "https://github.com/salvaft/tic-tac-raya",
+      "url": "https://tictac.torocro.duckdns.org/",
       "highlights": ["Real time", "Self hosted"],
       "description": "Realtime, multiplayer tic tac toe using HTTP streaming.  Developped using SvelteKit and Express adapter. Makes use of nextjs-auth library. Self-hosted"
     },
     {
       "isActive": true,
       "name": "JMLL's Recipes",
+      "url": "https://jmll-recetas.deno.dev",
+      "github": "https://github.com/salvaft/recetas-juan.git",
       "description": "A meticulously curated repository of gastronomic delights. Blog-like site made with _Deno_ and _Lume_ (a static site generator).",
 
       "highlights": ["Deno", "Tailwindcss"]
@@ -235,6 +245,7 @@
     {
       "isActive": true,
       "name": "Yaimisu Marketing Site",
+      "url": "https://www.yaimisu.com",
       "description": "Static site of [@yaimisu](https://www.instagram.com/yaimisu/), professional make-up and tattoo artist in Geneva area (Switzerland). Made with Gatsby and Tailwind. Hosted in Netlify",
       "highlights": ["Astro", "Yaimisu", "Tailwindcss"]
     },
@@ -242,7 +253,8 @@
       "isActive": true,
       "name": "Bg removal app",
       "description": "App made in Svelte that uploads and requests the AI powered remove bg service. The app implements a simple drag'n'drop as well as a web component to compare the before and after",
-      "highlights": ["AI", "Cloudinary"]
+      "highlights": ["AI", "Cloudinary"],
+      "github": "https://github.com/salvaft/exercises/tree/main/apps/removebg-svelte"
     }
   ]
 }
