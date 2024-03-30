@@ -3,6 +3,7 @@ import Section from "../Section.astro"
 import HTML from "@/icons/html.astro"
 import CSS from "@/icons/css.astro"
 import JavaScript from "@/icons/javascript.astro"
+import Python from "@/icons/python.astro"
 import TypeScript from "@/icons/type.astro"
 import React from "@/icons/react.astro"
 import Node from "@/icons/node.astro"
@@ -33,11 +34,13 @@ const SKILLS_ICONS: Record<string, any> = {
   SwiftUI,
   Kotlin,
   Flutter,
+  Python,
 }
 ---
 
-<Section title="Habilidades">
+<Section title="Skills">
   <ul>
+    <!--  TODO: Use astro icon or own implementation -->
     {
       skills.map(({ name }) => {
         const iconName = name === "Next.js" ? "Next" : name
