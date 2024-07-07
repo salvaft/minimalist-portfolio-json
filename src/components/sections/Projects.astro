@@ -10,15 +10,17 @@ import { projects } from "@cv"
   <ul>
     {
       projects.map(({ url, description, highlights, name, isActive, github }) => {
+        const El = isActive ? "a" : "span"
+        const anchorAttrs = isActive ? { href: url, target: "_blank" } : {}
         return (
           <li>
             <article>
               <header>
                 <h3>
-                  <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
+                  <El {...anchorAttrs} title={`Ver el proyecto ${name}`}>
                     {name}
-                  </a>
-                  {isActive && <span>•</span>}
+                  </El>
+                  {isActive && <span class="dot">•</span>}
                   {github && (
                     <a
                       class="github-code-link"
@@ -90,7 +92,7 @@ import { projects } from "@cv"
     }
   }
 
-  article h3 span {
+  .dot {
     color: rgb(0, 188, 47);
     animation-name: flicker;
     animation-duration: 3s;
