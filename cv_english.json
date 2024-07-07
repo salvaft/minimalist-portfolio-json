@@ -203,10 +203,9 @@
   ],
   "projects": [
     {
-      "isActive": true,
+      "isActive": false,
       "name": "Multiplayer rock paper scissors",
       "github": "https://github.com/salvaft/qui-va-sortir-nala.git",
-      "url": "https://nala.torocro.duckdns.org/",
       "highlights": ["Real time", "Self hosted"],
       "description": "Implemented in three ways:\nUsing HTTP streaming, websockets and using Pocketbase (golang) backend and its realtime client api."
     },
