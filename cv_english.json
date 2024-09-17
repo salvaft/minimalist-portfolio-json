@@ -203,6 +203,13 @@
   ],
   "projects": [
     {
+      "isActive": true,
+      "name": "ADVANTICS Website",
+      "url": "https://advantics.fr",
+      "highlights": ["Astro", "Tailwindcss"],
+      "description": "Marketing website of ADVANTICS SAS, a high-tech company in the field of power electronics, based in France, with clients in four continents."
+    },
+    {
       "isActive": false,
       "name": "Multiplayer rock paper scissors",
       "github": "https://github.com/salvaft/qui-va-sortir-nala.git",
