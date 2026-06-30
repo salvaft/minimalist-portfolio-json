@@ -6,7 +6,7 @@
     "email": "salvaft@gmail.com",
     "phone": "",
     "url": "https://salvaft.dev",
-    "summary": "Full-stack developer. Currently I am working as lead dev of ADVANTICS web services and with embedded systems for power converters; Python code that runs in docker containers in an ARMv7.",
+    "summary": "Full-stack developer. Currently I am working as lead dev of ADVANTICS web services and with embedded systems for power converters; Python code that runs in docker containers in ARMv7 and ARMv8 computers.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,7 +34,7 @@
       "url": "https://advantics.fr/",
       "startDate": "2024-03-25",
       "endDate": null,
-      "summary": "Developing  protocols, abstraction layers and user interfaces used in E-mobility and micro grids embedded Linux controllers.  In charge of the web services.",
+      "summary": "Developing  charging protocols, communication layers between devices and user interfaces used in E-mobility and micro grids embedded Linux computers.  In charge of the web services.",
       "highlights": ["Started the company"]
     },
     {
